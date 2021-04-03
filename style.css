@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.wrapper-nav{
+    background-image: url(img/Simple\ Photo\ Fashion\ Facebook\ Cover.png);
+    -webkit-background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: poppins ;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+    
+}
+.nav-item{
+    padding-right: 20px;
+    padding-top: 10px; 
+}
+.nav-link{
+    transition: .3s;
+    color: #fff;
+    font-size:  25px;;
+}
+.nav-link:hover{
+   color: #d2293d;
+}
+ .one{
+     text-align: center;
+ } 
+ .container h1,p{
+     text-align: center;
+     margin-top: 20px;
+ }
+ .text-contact{
+     text-align: center;
+ }
+ .container{
+     box-sizing: border-box;
+ }
+ .row{
+    height: 50%;
+ }
+ .one img{
+    width: 34px;
+    height: 35px;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 30px;
+     
+ }
+ .one ul{
+     display: inline-flex;
+     list-style-type: none;
+     margin-top: 10px;
+ }
+ .one p{
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 17px;
+ }
+ .two img{
+    height: 100px;
+    margin-left: 40px;
+ }
+ .one{
+    height: ;
+ }
