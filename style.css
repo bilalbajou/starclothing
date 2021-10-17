@@ -2,69 +2,102 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    width: auto;
 }
-.wrapper-nav{
-    background-image: url(img/Simple\ Photo\ Fashion\ Facebook\ Cover.png);
-    -webkit-background-size:cover;
-    background-position: center center;
-    height: 100vh;
-    font-family: poppins ;
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 20px;
-    
-    
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+ 
 }
-.nav-item{
-    padding-right: 20px;
-    padding-top: 10px; 
+header{
+  height: 100vh;
+  background-image: url("img/Simple\ Photo\ Fashion\ Facebook\ Cover.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  margin-bottom: 20px;
 }
-.nav-link{
-    transition: .3s;
-    color: #fff;
-    font-size:  25px;;
+.hamburger{
+       position: relative;
+       top: 5px;
 }
-.nav-link:hover{
-   color: #d2293d;
+.navbar-css{
+  background-color:white ;
 }
- .one{
-     text-align: center;
- } 
- .container h1,p{
-     text-align: center;
-     margin-top: 20px;
- }
- .text-contact{
-     text-align: center;
- }
- .container{
-     box-sizing: border-box;
- }
- .row{
-    height: 50%;
- }
- .one img{
-    width: 34px;
-    height: 35px;
+.nav-links a{
+  color:black;
+  margin-right: 20px;
+  font-size: 1.3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 300ms ease;
+
+}
+.nav-links a:hover{
+  color:white;
+  background-color: palevioletred;
+  border-radius: 20px;
+  padding: 5px;
+}
+.img-logo{
+  width: 80px;
+  height:80px ;
+}
+.one{
     text-align: center;
-    margin-top: 18px;
-    margin-left: 30px;
-     
- }
- .one ul{
-     display: inline-flex;
-     list-style-type: none;
-     margin-top: 10px;
- }
- .one p{
-    margin-top: 30px;
+} 
+.container h1,p{
     text-align: center;
-    margin-right: 17px;
- }
- .two img{
-    height: 100px;
-    margin-left: 40px;
- }
- .one{
-    height: ;
- }
+    margin-top: 20px;
+}
+.text-contact{
+    text-align: center;
+}
+.container{
+    box-sizing: border-box;
+}
+.rounded{
+    max-width: 100%;
+}
+/* .row{
+   height: 50%;
+}
+.one img{
+   width: 34px;
+   height: 35px;
+   text-align: center;
+   margin-top: 18px;
+   margin-left: 30px;
+    
+}
+.one ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.one p{
+   margin-top: 30px;
+   text-align: center;
+   margin-right: 17px;
+}
+.two img{
+   height: 100px;
+   margin-left: 40px;
+}
+
+@media (max-width:975px){
+    .one ul{
+        position: absolute;
+    }
+}
+@media (max-width:750px){
+    .two img{
+         padding-left: 100px;
+     }  
+    
+     .one ul{
+       
+    }
+
+} */
+
