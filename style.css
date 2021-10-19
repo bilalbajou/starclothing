@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
     width: auto;
 }
-@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
 body {
   margin: 0%;
   padding: 0%;
@@ -59,45 +60,5 @@ header{
 .rounded{
     max-width: 100%;
 }
-/* .row{
-   height: 50%;
-}
-.one img{
-   width: 34px;
-   height: 35px;
-   text-align: center;
-   margin-top: 18px;
-   margin-left: 30px;
-    
-}
-.one ul{
-    display: inline-flex;
-    list-style-type: none;
-    margin-top: 10px;
-}
-.one p{
-   margin-top: 30px;
-   text-align: center;
-   margin-right: 17px;
-}
-.two img{
-   height: 100px;
-   margin-left: 40px;
-}
 
-@media (max-width:975px){
-    .one ul{
-        position: absolute;
-    }
-}
-@media (max-width:750px){
-    .two img{
-         padding-left: 100px;
-     }  
-    
-     .one ul{
-       
-    }
-
-} */
 
